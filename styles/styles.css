@@ -3,8 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
   font-family: "Azeret Mono", monospace;
 }
 body,
@@ -12,7 +10,7 @@ html {
   height: 100%;
   width: 100%;
 }
-
+/* Commmon */
 .h1 {
   font-size: 40px;
   color: #0d1321;
@@ -50,6 +48,7 @@ html {
   margin: 0 auto;
 }
 
+/*navbar*/
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -70,10 +69,10 @@ html {
   color: #0d1321;
   font-weight: 600;
 }
-
+/* banner */
 .banner {
   background-image: url(../B10A1-Challenge-Begins-main/assets/Hero-bg.png);
-  height: 40pw;
+  height: 40vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,12 +96,14 @@ html {
   align-self: center;
 }
 
+/* section style */
 
 .section-1 {
   padding-top: 80px;
   padding-bottom: 80px;
   padding-left: 97px;
   padding-right: 97px;
+  margin-bottom: 30px;
 }
 .section-1-text {
   margin-bottom: 60px;
@@ -115,7 +116,7 @@ html {
 .section-1-features-container {
   display: flex;
   flex-direction: column;
-  gap:150px;
+  gap: 150px;
 }
 .section-1-feature {
   display: flex;
@@ -153,7 +154,7 @@ html {
   background-position: center;
 }
 .feature-2 {
-  background-image: url(../B10A1-Challenge-Begins-main/assets/Group\ 3.png );
+  background-image: url(../B10A1-Challenge-Begins-main/assets/Group\ 3.png);
   background-size: cover;
   background-position: center;
 }
@@ -161,4 +162,165 @@ html {
   background-image: url(../B10A1-Challenge-Begins-main/assets/Group\ 4.png);
   background-size: cover;
   background-position: center;
+}
+
+.section-2-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.section-2-text {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.section-2-container iframe {
+  width: 80%;
+  margin: 0 auto;
+  border: 25px solid rgb(237, 237, 237);
+  height: 70vh;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.897);
+}
+
+.section-3-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 120px;
+}
+.section-3-text {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  width: 28%;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.897);
+  text-align: left;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  align-self: flex-start;
+}
+.card a {
+  color: black;
+}
+.card1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.card2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.card3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+
+.section-4-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-4-text {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.section-4-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-4-card {
+  display: flex;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.897);
+  height: 250px;
+}
+
+.section-4-img {
+  max-width: 100%;
+  height: auto;
+  padding: 28px;
+  object-fit: contain;
+}
+.section-4-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.section-4-card-details a {
+  color: black;
+}
+
+.section-5-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../B10A1-Challenge-Begins-main/assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 270px;
+  background-color: rgba(0, 0, 0, 0.62);
+  position: relative;
+  border-radius: 8px;
+}
+.section-5-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  border-radius: 8px;
+}
+.section-5-inner-container {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  width: 70%;
+  gap: 20px;
+}
+.section-5-title {
+  color: white;
+}
+.section-5-text {
+  color: rgba(255, 255, 255, 0.511);
+  margin-bottom: 10px;
+}
+.section-5-form {
+  margin-left: 80px;
+}
+.section-5-form input {
+  outline: none;
+  padding: 19px 20px;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+}
+.section-5-btn {
+  background-color: white;
+  color: #0d1321;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 14px 25px;
 }
