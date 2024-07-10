@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&display=swap");
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -7,87 +7,158 @@
   text-decoration: none;
   font-family: "Azeret Mono", monospace;
 }
-.h1 {
-    font-size: 48px;
-    font-size: 40px;
-    color: #0d1321;
-    font-weight: 700;
-  }
-   
-  .text{
-    font-size: 16px;
-    font-weight: normal;
-    color: rgba(13, 19, 33, 0.582);
-  }
-  .center-align {
-    text-align: center;
-  }
-   
-  
-  /*navbar style start*/
-  .nav-container{
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-  }
-  .nav-logo{
-      font-size: 28px;
-      color: #0d1321;
-      font-weight: 800;
-      display: flex;
-      align-items: center;
-      letter-spacing: 0;
-  }
-  .nav-btn{
-      padding: 15px 22px;
-      background-color: white;
-      color: #0d1321;
-      font-weight: 600;
-  
-  }
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .nav-logo {
-    font-size: 28px;
-    color: #0d1321;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0;
-  }
-  .nav-btn {
-    padding: 15px 22px;
-    background-color: white;
-    color: #0d1321;
-    font-weight: 600;
-  }
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
 
-  .banner {
-    background-image: url(../assets/Hero-bg.png);
-    height: 40vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 20px;
-  }
-  .banner-inner-container {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-  }
-  .banner-inner-container img {
-    max-width: 100%;
-    height: auto;
-    align-self: center;
-  }
-  .banner-btn{
-    align-self: center;
-  }
+.h1 {
+  font-size: 40px;
+  color: #0d1321;
+  font-weight: 700;
+}
+.h2 {
+  font-size: 32px;
+  color: #0d1321;
+  font-weight: 700;
+}
+.h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.text {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(13, 19, 33, 0.582);
+}
+.center-align {
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(13, 19, 33);
+  background-color: #0d1321;
+  color: white;
+  padding: 15px 17px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-logo {
+  font-size: 28px;
+  color: #0d1321;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0;
+}
+.nav-btn {
+  padding: 15px 22px;
+  background-color: white;
+  color: #0d1321;
+  font-weight: 600;
+}
+
+.banner {
+  background-image: url(../B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+  height: 40pw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+.banner-inner-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+.banner-inner-container img {
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+}
+.banner-btn {
+  align-self: center;
+}
+
+
+.section-1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 97px;
+  padding-right: 97px;
+}
+.section-1-text {
+  margin-bottom: 60px;
+}
+.Section-1-inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-1-features-container {
+  display: flex;
+  flex-direction: column;
+  gap:150px;
+}
+.section-1-feature {
+  display: flex;
+  height: 30vh;
+  gap: 30px;
+}
+.feature-left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.feature-left-title {
+  width: 80%;
+}
+.feature-left-text {
+  width: 80%;
+}
+.feature-left-btn {
+  align-self: flex-start;
+  padding: 12px 20px;
+  background-color: white;
+  color: #0d1321;
+  font-weight: 600;
+  border-radius: 0px;
+  font-size: 15px;
+}
+.feature-right {
+  width: 30%;
+}
+.feature-1 {
+  background-image: url(../B10A1-Challenge-Begins-main/assets/Layer_1.png);
+  background-size: cover;
+  background-position: center;
+}
+.feature-2 {
+  background-image: url(../B10A1-Challenge-Begins-main/assets/Group\ 3.png );
+  background-size: cover;
+  background-position: center;
+}
+.feature-3 {
+  background-image: url(../B10A1-Challenge-Begins-main/assets/Group\ 4.png);
+  background-size: cover;
+  background-position: center;
+}
