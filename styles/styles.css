@@ -324,3 +324,29 @@ html {
   font-family: sans-serif;
   padding: 14px 25px;
 }
+
+/* footer */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px;
+  background-color:  rgba(13, 19, 33, 0.03);
+}
+.footer-title{
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  gap: 10px;
+}
+.icons img{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 5px;
+  cursor: pointer;
+}
