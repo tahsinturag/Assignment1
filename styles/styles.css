@@ -17,16 +17,16 @@ html {
   font-weight: 700;
 }
 .h2 {
-  font-size: 32px;
+  font-size: 30px;
   color: #0d1321;
   font-weight: 700;
 }
 .h3 {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
 }
 .text {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: normal;
   color: rgba(13, 19, 33, 0.582);
 }
@@ -64,7 +64,7 @@ html {
   letter-spacing: 0;
 }
 .nav-btn {
-  padding: 15px 22px;
+  padding: 15px 20px;
   background-color: white;
   color: #0d1321;
   font-weight: 600;
@@ -136,7 +136,7 @@ html {
 .feature-left-text {
   width: 80%;
 }
-.feature-left-btn {
+.left-btn {
   align-self: flex-start;
   padding: 12px 20px;
   background-color: white;
@@ -312,7 +312,7 @@ html {
 }
 .section-5-form input {
   outline: none;
-  padding: 19px 20px;
+  padding: 20px 20px;
   width: 70%;
   border-radius: 5px;
   border: none;
